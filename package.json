@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [pebble-api (v0.2.2)](https://github.com/pebble/pebble-api-node)  [![npm package](https://img.shields.io/npm/v/npmtest-pebble-api.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pebble-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pebble-api.svg)](https://travis-ci.org/npmtest/node-npmtest-pebble-api)",
+    "description": "#### basic test coverage for  [pebble-api (v0.2.2)](https://github.com/pebble/pebble-api-node)  [![npm package](https://img.shields.io/npm/v/npmtest-pebble-api.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pebble-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pebble-api.svg)](https://travis-ci.org/npmtest/node-npmtest-pebble-api)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "pebble-api": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }

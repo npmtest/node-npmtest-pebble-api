@@ -1,6 +1,6 @@
 # npmtest-pebble-api
 
-#### test coverage for  [pebble-api (v0.2.2)](https://github.com/pebble/pebble-api-node)  [![npm package](https://img.shields.io/npm/v/npmtest-pebble-api.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pebble-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pebble-api.svg)](https://travis-ci.org/npmtest/node-npmtest-pebble-api)
+#### basic test coverage for  [pebble-api (v0.2.2)](https://github.com/pebble/pebble-api-node)  [![npm package](https://img.shields.io/npm/v/npmtest-pebble-api.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pebble-api) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pebble-api.svg)](https://travis-ci.org/npmtest/node-npmtest-pebble-api)
 
 #### Pebble API client
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pebble-api/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pebble-api/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pebble-api/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pebble-api/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pebble-api/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pebble-api/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pebble-api/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pebble-api/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pebble-api/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pebble-api/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pebble-api/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pebble-api/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
         "coverage": "make test-cov",
         "test": "make test"
     },
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
